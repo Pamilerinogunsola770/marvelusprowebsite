@@ -184,7 +184,7 @@
           <p>We believe that great design should be accessible to everyone, which is why we work closely with our clients to understand their unique needs and create custom solutions that align with their goals and budget.</p>
           <div class="about-stats">
             <div class="stat-item">
-              <div class="stat-number">150+</div>
+              <div class="stat-number">30+</div>
               <div class="stat-label">Projects Completed</div>
             </div>
             <div class="stat-item">
@@ -192,12 +192,12 @@
               <div class="stat-label">Client Satisfaction</div>
             </div>
             <div class="stat-item">
-              <div class="stat-number">8+</div>
+              <div class="stat-number">3+</div>
               <div class="stat-label">Years Experience</div>
             </div>
             <div class="stat-item">
-              <div class="stat-number">24</div>
-              <div class="stat-label">Awards Won</div>
+              <div class="stat-number">15+</div>
+              <div class="stat-label">Certifications</div>
             </div>
           </div>
         </div>
@@ -256,62 +256,80 @@
     </div>
   </section>
 
-  <!-- Contact Section -->
-  <section id="contact" class="contact">
-    <div class="container">
-      <div class="contact-container">
-        <div class="contact-header">
-          <h2 class="section-title">Let's Work Together</h2>
-          <p class="section-description">Ready to elevate your digital presence? Get in touch to discuss your project.</p>
+<!-- Contact Section -->
+<section id="contact" class="contact">
+  <div class="container">
+    <div class="contact-container">
+      <div class="contact-header">
+        <h2 class="section-title">Let's Work Together</h2>
+        <p class="section-description">Ready to elevate your digital presence? Get in touch to discuss your project.</p>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info">
+          <h3>Contact Information</h3>
+          <div class="contact-details">
+            <p>Email: marveluspro77@gmail.com</p>
+            <p>Phone: +2349116769934</p>
+            <p>Location: Online</p>
+          </div>
+          <h4>Follow Me</h4>
+          <div class="social-links">
+            <a href="https://www.facebook.com/profile.php?id=61573610055356" class="social-link"><i class="fab fa-facebook"></i></a>
+            <a href="https://wa.link/apkld4" class="social-link"><i class="fab fa-whatsapp"></i></a>
+            <a href="https://www.instagram.com/marvelus_77" class="social-link"><i class="fab fa-instagram"></i></a>
+            <a href="https://twitter.com/@Marvelus77" class="social-link"><i class="fab fa-twitter"></i></a>
+          </div>
         </div>
-        <div class="contact-grid">
-          <div class="contact-info">
-            <h3>Contact Information</h3>
-            <div class="contact-details">
-              <p>Email: marveluspro77@gmail.com</p>
-              <p>Phone: +2349116769934</p>
-              <p>Location: Online</p>
+        <div class="contact-form">
+          <h3>Send a Message</h3>
+          
+          <!-- Success and global error messages will render inside these containers -->
+          <div data-fs-success style="color: #28a745; margin-bottom: 15px; font-weight: bold;"></div>
+          <div data-fs-error style="color: #dc3545; margin-bottom: 15px; font-weight: bold;"></div>
+
+          <form id="contact-form">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Your Name" required id="name" name="name" data-fs-field>
+              <span data-fs-error="name" style="color: #dc3545; font-size: 0.85rem; display: block; margin-top: 5px;"></span>
             </div>
-            <h4>Follow Me</h4>
-            <div class="social-links">
-              <a href="https://www.facebook.com/profile.php?id=61573610055356" class="social-link"><i class="fab fa-facebook"></i></a>
-              <a href="https://wa.link/apkld4" class="social-link"><i class="fab fa-whatsapp"></i></a>
-              <a href="https://www.instagram.com/marvelus_77" class="social-link"><i class="fab fa-instagram"></i></a>
-              <a href="https://twitter.com/@Marvelus77" class="social-link"><i class="fab fa-twitter"></i></a>
+            <div class="form-group">
+              <input type="email" class="form-control" placeholder="Your Email" required id="email" name="email" data-fs-field>
+              <span data-fs-error="email" style="color: #dc3545; font-size: 0.85rem; display: block; margin-top: 5px;"></span>
             </div>
-          </div>
-          <div class="contact-form">
-            <h3>Send a Message</h3>
-            <form id="contact-form">
-              <div class="form-group">
-                <input type="text" class="form-control" placeholder="Your Name" required id="name">
-              </div>
-              <div class="form-group">
-                <input type="email" class="form-control" placeholder="Your Email" required id="email">
-              </div>
-              <div class="form-group">
-                <textarea class="form-control" placeholder="Your Message" rows="4" required></textarea>
-              </div>
-              <button type="submit" class="btn btn-primary btn-lg" style="width: 100%;">Send Message</button>
-            </form>
-          </div>
+            <div class="form-group">
+              <textarea class="form-control" placeholder="Your Message" rows="4" required name="message" data-fs-field></textarea>
+              <span data-fs-error="message" style="color: #dc3545; font-size: 0.85rem; display: block; margin-top: 5px;"></span>
+            </div>
+            <button type="submit" class="btn btn-primary btn-lg" style="width: 100%;" data-fs-submit-btn>Send Message</button>
+          </form>
         </div>
       </div>
     </div>
-  </section>
+  </div>
+</section>
 
-  <!-- Footer -->
-  <footer class="footer">
-    <div class="container footer-container">
-      <div class="footer-logo">
-        <a href="#" class="logo">Marvelus<span>Pro</span></a>
-      </div>
-      <div class="copyright">
-        © <span id="current-year"></span> Marvelus Pro. All rights reserved.
-      </div>
+<!-- Footer -->
+<footer class="footer">
+  <div class="container footer-container">
+    <div class="footer-logo">
+      <a href="#" class="logo">Marvelus<span>Pro</span></a>
     </div>
-  </footer>
+    <div class="copyright">
+      © <span id="current-year"></span> Marvelus Pro. All rights reserved.
+    </div>
+  </div>
+</footer>
 
-</body>
 <script src="marvelusweb.js"></script>
+
+<!-- Formspree Integration Scripts -->
+<script>
+  window.formspree = window.formspree || function () { (formspree.q = formspree.q || []).push(arguments); };
+  formspree('initForm', { formElement: '#contact-form', formId: 'xeajzlkd' });
+</script>
+
+<!-- FIXED: Complete library address added here -->
+<script src="https://unpkg.com" defer></script>
+</html>
+
 </html>
